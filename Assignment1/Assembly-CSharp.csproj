@@ -55,7 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\cityGeneration.cs" />
+     <Compile Include="Assets\cityGenerator.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/College/Games Engines 1/Assignment 1/Assignment1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
