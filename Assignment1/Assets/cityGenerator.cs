@@ -12,12 +12,13 @@ public class cityGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        float diffLocation = Random.Range(0, 100);
         for (int h = 0; h < mapHeight; h++)
         {
             for (int w = 0; w < mapWidth; w++)
             {
                 //Perlion Noise return values 0 to 1 so we * 10 and cast as int for easy usage
-                int result = (int)(Mathf.PerlinNoise(w/10.0f, h/10.0f) * 10);
+                int result = (int)(Mathf.PerlinNoise(w/10.0f + diffLocation , h/10.0f + diffLocation) * 10);
                 Vector3 pos = new Vector3(w * buildingSpreader, 0, h * buildingSpreader);
                 if(result < 2)
                     Instantiate(buildings[0], pos, Quaternion.identity);
