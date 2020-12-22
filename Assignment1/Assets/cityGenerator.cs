@@ -5,8 +5,8 @@ using UnityEngine;
 public class cityGenerator : MonoBehaviour
 {
     public GameObject[] buildings;
-    public int mapWidth = 20;
-    public int mapHeight = 20;
+    public int mapWidth = 100;
+    public int mapHeight = 100;
     int buildingSpreader = 3;
 
     // Start is called before the first frame update
