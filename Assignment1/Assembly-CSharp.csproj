@@ -64,7 +64,10 @@
      <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+     <Compile Include="Assets\AlignedGames\Polygonal Foliage Asset Package\Scripts\Utility\FlyCameraBehaviour.cs" />
+     <None Include="Assets\AlignedGames\Polygonal Foliage Asset Package\Shaders\Cloud.shader" />
      <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
+     <None Include="Assets\AlignedGames\Polygonal Foliage Asset Package\Shaders\Diffuse.shader" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>D:/College/Games Engines 1/Assignment 1/Assignment1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
