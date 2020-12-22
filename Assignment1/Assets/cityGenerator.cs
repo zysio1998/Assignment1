@@ -11,7 +11,7 @@ public class cityGenerator : MonoBehaviour
     public int mapWidth = 100;
     public int mapHeight = 100;
     int[,] mapgrid; //2D array
-    int buildingSpreader = 3;
+    int buildingSpreader = 10;
 
     // Start is called before the first frame update
     void Start()
