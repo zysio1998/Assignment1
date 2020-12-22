@@ -12,7 +12,7 @@ public class cityGenerator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        float diffLocation = Random.Range(0, 100);
+        float diffLocation = Random.Range(0, 100); //or hardcode a number
         for (int h = 0; h < mapHeight; h++)
         {
             for (int w = 0; w < mapWidth; w++)
@@ -26,9 +26,10 @@ public class cityGenerator : MonoBehaviour
                     Instantiate(buildings[1], pos, Quaternion.identity);
                 else if(result < 6)
                     Instantiate(buildings[2], pos, Quaternion.identity);
-                else if(result < 8)
+                else if(result < 7)
                     Instantiate(buildings[3], pos, Quaternion.identity);
-
+                else if (result < 10)
+                    Instantiate(buildings[4], pos, Quaternion.identity);
 
             }
         }
