@@ -42,6 +42,24 @@ public class cityGenerator : MonoBehaviour
             if (x >= mapWidth) break;
         }
 
+        //build z streets
+        int z = 0;
+        for (int n = 0; n < 10; n++)
+        {
+            //loop throught the entire height of the map
+            for (int w = 0; w < mapWidth; w++)
+            {
+                //add crossroads
+                if (mapgrid[w, z] == -1)
+                    mapgrid[w, z] = -3;
+                else
+                    mapgrid[w, z] = -2;
+            }
+            z += Random.Range(2, 20);
+            if (z >= mapHeight) break;
+        }
+
+
         //generate city               
         for (int h = 0; h < mapHeight; h++)
         {
