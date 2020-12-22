@@ -16,17 +16,20 @@ public class cityGenerator : MonoBehaviour
         {
             for (int w = 0; w < mapWidth; w++)
             {
+                //Perlion Noise return values 0 to 1 so we * 10 and cast as int for easy usage
+                int result = (int)(Mathf.PerlinNoise(w/10.0f, h/10.0f) * 10);
                 Vector3 pos = new Vector3(w * buildingSpreader, 0, h * buildingSpreader);
-                int n = Random.Range(0, buildings.Length);
-                Instantiate(buildings[n], pos, Quaternion.identity);
+                if(result < 2)
+                    Instantiate(buildings[0], pos, Quaternion.identity);
+                else if(result < 4)
+                    Instantiate(buildings[1], pos, Quaternion.identity);
+                else if(result < 6)
+                    Instantiate(buildings[2], pos, Quaternion.identity);
+                else if(result < 8)
+                    Instantiate(buildings[3], pos, Quaternion.identity);
+
 
             }
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 }
