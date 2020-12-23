@@ -8,8 +8,8 @@ public class cityGenerator : MonoBehaviour
     public GameObject xStreet;
     public GameObject zStreet;
     public GameObject Crossroad;
-    public int mapWidth = 100;
-    public int mapHeight = 100;
+    public int mapWidth = 75;
+    public int mapHeight = 75;
     int[,] mapgrid; //2D array
     int buildingSpreader = 11;
 
