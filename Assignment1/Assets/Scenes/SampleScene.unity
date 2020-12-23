@@ -359,11 +359,12 @@ MonoBehaviour:
   - {fileID: 6990498359281683624, guid: 3bd33fe2b79c7164b873af29e13fbfc9, type: 3}
   - {fileID: 1386493701872144049, guid: 4aaba88bc33aa41439e32085e0a94ab1, type: 3}
   - {fileID: 1762833994489621218, guid: 6e500d519db69d94f98b87be84161e0f, type: 3}
+  - {fileID: 1590251443983101680, guid: 5e9be1613befd7140a3b18ed95968070, type: 3}
   xStreet: {fileID: 6745383759424708764, guid: 8f19e8c088a9fff4a9a75b718b1e4cbf, type: 3}
   zStreet: {fileID: 5025857006120724820, guid: ff9e89d69b0be28459f508bbcc8ed3fb, type: 3}
   Crossroad: {fileID: 8811784576900588129, guid: 0af28d8054fd6344d82f3a5cf345e647, type: 3}
-  mapWidth: 100
-  mapHeight: 100
+  mapWidth: 75
+  mapHeight: 75
 --- !u!4 &1256584736
 Transform:
   m_ObjectHideFlags: 0

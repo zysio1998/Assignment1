@@ -73,14 +73,16 @@ public class cityGenerator : MonoBehaviour
                     Instantiate(xStreet, pos, xStreet.transform.rotation);
                 else if (result == -1)
                     Instantiate(zStreet, pos, zStreet.transform.rotation);
-                else if (result < 2)
+                else if (result < 1)
                     Instantiate(buildings[0], pos, Quaternion.identity);
-                else if(result < 4)
-                    Instantiate(buildings[1], pos, Quaternion.identity);
-                else if(result < 6)
-                    Instantiate(buildings[2], pos, Quaternion.identity);
-                else if(result < 7)
+                else if(result < 2)
+                    Instantiate(buildings[5], pos, Quaternion.identity);
+                else if(result < 3)
                     Instantiate(buildings[3], pos, Quaternion.identity);
+                else if(result < 5)
+                    Instantiate(buildings[1], pos, Quaternion.identity);
+                else if (result < 6)
+                    Instantiate(buildings[2], pos, Quaternion.identity);
                 else if (result < 10)
                     Instantiate(buildings[4], pos, Quaternion.identity);
 
