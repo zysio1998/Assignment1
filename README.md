@@ -15,4 +15,22 @@ Then the streets are built. The street on the X axis and Z axis are calculated a
 
 We generate the city with a simple function, using values. All according to teh mapWidth and mapHeight.
 
+The cars use a simple deltaTime function to smoothly run in straight lines.
+
+To prevent the user going off the map I have added boxcolliders and all around the map and added cubes with a translucent colour to make it look better.
+
+The coolest part of the generator is the skyscappers, I really like the way the look.
+
+THe generated city looks pretty cool, and you can hop over buildings as I reduced the gravity.
+
+#Controls
+There is a FPS character camera included.
+W - forward
+A - left
+S - backwards
+D - right
+Shift - sprint
+Space - jump
+
+
 
