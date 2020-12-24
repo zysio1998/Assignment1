@@ -2,7 +2,7 @@
 
 Procedural City Generator 
 
-The program geneartes a city with skyscrappers and smaller bulidings. The are cars genearted that drive themselves in straight lines and fields of grass, bushes and flowers. Each street has a lines of trees generted within.
+The program generates a city with skyscrappers and smaller bulidings. The are cars that drive themselves in straight lines and fields of grass, bushes and flowers. Each street has a lines of trees generated within.
 
 The YouTube link is below:
 
