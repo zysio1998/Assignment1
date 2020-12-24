@@ -23,7 +23,7 @@ The coolest part of the generator is the skyscappers, I really like the way the 
 
 The generated city looks pretty cool, and you can hop over buildings as I reduced the gravity.
 
-##Controls
+# Controls
 
 There is a FPS character camera included.
 W - forward
