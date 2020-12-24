@@ -26,6 +26,7 @@ The generated city looks pretty cool, and you can hop over buildings as I reduce
 # Controls
 
 There is a FPS character camera included.
+
 W - forward
 
 A - left
