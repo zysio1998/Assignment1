@@ -6,7 +6,9 @@ The program generates a city with skyscrappers and smaller bulidings. The are ca
 
 The YouTube link is below:
 
-[![YouTube](http://img.https://youtu.be/CUSXBBhUEfc/0.jpg)](https://www.youtube.com/watch?v=CUSXBBhUEfc)
+[![YouTube](http://img.youtube.com/CUSXBBhUEfc/0.jpg)](https://www.youtube.com/watch?v=CUSXBBhUEfc)
 
+
+To begin with
 
 
