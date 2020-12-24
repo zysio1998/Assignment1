@@ -5,7 +5,11 @@ Name: Arkadiusz Rybicki
 
 Student Number: C17337523 
 
-Class Group:
+Class Group: DT282/4
+
+YouTube Video :
+
+[![YouTube](http://img.youtube.com/watch?v=CUSXBBhUEfc/0.jpg)](https://www.youtube.com/watch?v=CUSXBBhUEfc&ab_channel=ArkadiuszRybicki)
 
 # Description of the project
 
